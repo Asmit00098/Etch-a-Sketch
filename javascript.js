@@ -49,6 +49,7 @@ let b=prompt("Enter the width");
 if(a>100||b>100)
 {
     alert("Out of range");
+    createGrid(8,8);
 }
 else{
 createGrid(a,b);
